@@ -1,0 +1,58 @@
+@media screen and (max-width: 1020px) {
+  .card {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 855px) {
+  .card {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 686px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .card {
+    width: 43%;
+  }
+}
+@media screen and (max-width: 521px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .card {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 479px) {
+  .card {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 58%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .card {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .card {
+    height: auto;
+    width: 55%;
+  }
+  .top {
+    width: 80%;
+    top: 10rem;
+  }
+}

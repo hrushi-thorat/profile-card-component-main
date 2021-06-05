@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #19a2ae;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.card {
+  width: 25%;
+}
+
+.card .header {
+  border-radius: 1rem 1rem 0 0;
+  background: url(/images/bg-pattern-card.svg);
+  width: 100%;
+  padding: 4rem;
+}
+
+.body {
+  padding: 0 2rem 2rem 2rem;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-top: -26%;
+  margin-bottom: 1.5rem;
+  border: 0.5rem solid white;
+}
+
+.body h2 {
+  color: #2d3248;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.body h2 span {
+  padding-left: 0.4rem;
+  font-weight: 500;
+  color: #6a6f81;
+}
+
+.body h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #969696;
+}
+
+.footr {
+  border-top: 0.1rem solid #969696;
+  padding: 0 1rem 0 1rem;
+  background: white;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.footr .stats {
+  padding: 1.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footr .stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footr .stat .stat-no {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d3248;
+  margin-bottom: 0.5rem;
+}
+
+.footr .stat .stat-name {
+  font-size: 0.7rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: #969696;
+}
+
+.background img {
+  position: absolute;
+  z-index: -1;
+}
+
+.background .top {
+  width: 55%;
+  height: auto;
+  top: -15rem;
+  left: -7rem;
+}
+
+.background .bottom {
+  right: -7rem;
+  bottom: -20rem;
+  width: 55%;
+  height: auto;
+}
+
+@media screen and (max-width: 1020px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .card {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .card {
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .card {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 58%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .card {
+    height: auto;
+    width: 55%;
+  }
+  .top {
+    width: 80%;
+    top: 10rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
